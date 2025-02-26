@@ -1,3 +1,16 @@
-#main_header{
-    opacity:0.1;
+#heading_box{
+    display:flex;
+    background:#F0DED3;
+    text-align: center;
 }
+
+#main_header{
+    font-size: 100px;
+    color: #a96d5d;
+    padding:0;
+}
+
+body{
+    font-family: Helvetica;
+}
+
