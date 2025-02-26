@@ -1,4 +1,4 @@
-# Applications_Tracker
+# Plant_Tracker
 
 ## Project Objectives:
 
