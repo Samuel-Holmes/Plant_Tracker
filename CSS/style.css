@@ -43,9 +43,11 @@ a{
 /* tagline is welcome to growth */
 
 #tagline{
+    display:inline-block;
     color:#a96d5d;
     margin-top: 0;
     margin-bottom: 10px;
+    background-color: #bcba90;
 }
 
 
@@ -65,13 +67,19 @@ body{
     display: flex;
     flex-direction: column;
     row-gap: 10px;
+    text-align: center;
 }
 
-
-.textboxes{
+#box1{
+    display: inline-block;
     border-radius: 5px;
-    margin-top: 10px;
-    justify-content: space-evenly;
-    background-color: #678366;
+    background-color: #a96d5d;
 }
+
+#box2{
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #a96d5d; 
+}
+
 
