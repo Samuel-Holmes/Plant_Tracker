@@ -4,13 +4,15 @@ This project has been created due to my personal passion for indoor plants. Havi
 
 ## Project Objectives:
 
-* 
-*  
-*  
+* Create a web app with database storage - using authentication will allow individual users based upon credentials
+* This will allow for necessary CRUD operations
+* There should be a large focus on UX
 
 
 ## Key Skills and Languages Used:
 
+* Frontend - HTML, CSS, JavaScript
+* Backend - Python (Django), PostgreSQL (Supabase) 
 
 
 ## Project Reflections: 
