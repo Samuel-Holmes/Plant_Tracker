@@ -39,7 +39,6 @@ a{
     margin: 0;
     margin-top: 20px;
     margin-bottom: 5px;
-    /*background-color: #bcba90;*/
     border-radius: 5px;
 
 }
@@ -65,7 +64,6 @@ p{
 
 body{
     font-family:'Helvetica Neue';
-    /*background-color:#F0DED3;*/
 }
 
 /* Flex container established for the main body of the page*/
