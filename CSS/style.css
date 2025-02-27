@@ -27,6 +27,8 @@ a{
 #heading_box{
     display:flex;
     flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
 
 #main_header{
@@ -35,7 +37,10 @@ a{
     color: #a96d5d;
     padding:0;
     margin: 0;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    /*background-color: #bcba90;*/
+    border-radius: 5px;
 
 }
 
@@ -43,11 +48,12 @@ a{
 /* tagline is welcome to growth */
 
 #tagline{
-    display:inline-block;
+    display: inline-block;
+    width: 50%;
     color:#a96d5d;
     margin-top: 0;
     margin-bottom: 10px;
-    background-color: #bcba90;
+    border-radius: 5px;
 }
 
 
@@ -59,7 +65,7 @@ p{
 
 body{
     font-family:'Helvetica Neue';
-    background-color:#F0DED3;
+    /*background-color:#F0DED3;*/
 }
 
 /* Flex container established for the main body of the page*/
