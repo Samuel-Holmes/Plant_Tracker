@@ -12,7 +12,7 @@ This project has been created due to my personal passion for indoor plants. Havi
 ## Key Skills and Languages Used:
 
 * Frontend - HTML, CSS, JavaScript
-* Backend - Python (Django), PostgreSQL (Supabase) 
+* Backend - Javascript (node.js)
 
 
 ## Project Reflections: 
