@@ -62,8 +62,10 @@ body{
 
 
 
-/* styling first image */
+/* styling images section using grid */
+
 #banner_images{
-    
+    display: flex;
+    flex-direction: row;
 }
 
