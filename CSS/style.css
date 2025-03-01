@@ -62,7 +62,13 @@ body{
 
 
 
-/* styling images section using grid */
+/* styling images section */
+
+#banner_images{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 
 .leaves{
     width: 200px;
@@ -71,9 +77,5 @@ body{
     object-fit: cover;
 }
 
-#banner_images{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
+
 
