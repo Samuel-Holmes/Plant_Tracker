@@ -20,14 +20,15 @@ height: fit-content;
 #menu{
     display: flex;
     justify-content: end;
-    margin-top: 3px;
-    margin-right: 15px;
+    margin-top: 1em;
+    margin-right: 1em;
 }
 
 a{
     text-decoration: none;
     font-family:'Helvetica Neue';
     color: #a96d5d;
+    padding:1em;
 }
 
 /* class for the login button allowing a growth animation on hover */
