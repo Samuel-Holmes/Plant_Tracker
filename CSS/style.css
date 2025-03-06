@@ -12,6 +12,7 @@
     display:flex;
     flex-direction: column;
     height: 100vh;
+    overflow-x: none;
 }
 
 main{
@@ -28,7 +29,6 @@ height: fit-content;
 #menu{
     display: flex;
     justify-content: end;
-    margin-top: 1em;
     margin-right: 1em;
 }
 
@@ -65,6 +65,7 @@ a{
     color:#a96d5d;
     margin-top: 0.5em;
     margin-bottom: 0;
+    padding: 5rem;
 
 }
 
