@@ -75,7 +75,7 @@ a{
     color:#a96d5d;
     margin-top: 0;
     margin-bottom: 0;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     background-color: #EDE1E4;
     padding: 0.25em;
     
@@ -89,8 +89,26 @@ html, body{
 }
 
 /* Hero banner stylings */
+.container{
+    padding:2em;
+}
 
+.slider_wrapper{
+    position:relative;
+    max-width: 48rem;
+    margin:0 auto;
 
+}
+
+.slider{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0%, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+}
 
 /* footer stylings GitHub link */
 footer{
@@ -103,4 +121,6 @@ footer{
     width:50px;
     height:50px;
 }
+
+
 
