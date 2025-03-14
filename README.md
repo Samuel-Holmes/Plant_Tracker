@@ -1,18 +1,16 @@
-# Plant_Tracker
+# Plant Tracker
 
-This project has been created due to my personal passion for indoor plants. Having tried to use apps such as planta etc. to track watering habits and plant health, I decided to have a go making a personal tracker. This would provide a more tailored experience whilst also allowing me to learn some new technologies at the same time. 
+This project was created due to my personal passion for indoor plants. I have tried using various Android apps to track watering habits and plant health; however, I eventually hit paywalls. To overcome this, I decided to create a personal tracker. This would provide a more tailored experience while also allowing me to learn some new technologies at the same time. It removes the limitation of features behind a paywall—provided I can implement them myself, that is.
 
-## Project Objectives:
+### Project Objectives:
 
-* Create a web app with database storage - using authentication will allow individual users based upon credentials
-* This will allow for necessary CRUD operations
-* There should be a large focus on UX
+* Create a web app with database storage—using authentication to allow individual users based on their credentials.
+* Implement necessary CRUD operations.
+* Ensure the design is user-friendly; it does not need to be complex but should perform its functionality in an accessible manner for the end user.
 
+### Key Skills and Languages Used:
 
-## Key Skills and Languages Used:
+* Frontend: HTML, CSS, JavaScript
+* Backend: JavaScript (Node.js)
 
-* Frontend - HTML, CSS, JavaScript
-* Backend - Javascript (node.js)
-
-
-## Project Reflections: 
+### Project Reflections:
