@@ -103,9 +103,19 @@ main {
     width: 75%;
 }
 .textbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    color: #f1a22d;  
+    color: #f1a22d; 
+    background-color: rgba(28, 63, 28, 0.61); 
+    border-radius: 0.5rem;
+    padding:0.5rem;
+    width:30%;
+    margin: 15px;
 }
+
+
 
 /* Footer styling for GitHub link */
 footer {
