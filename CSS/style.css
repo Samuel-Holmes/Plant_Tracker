@@ -16,6 +16,20 @@
     overflow-x: none;
 }
 
+#wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/ASSETS/pexels-oleksandr-tiupa-53788-192136.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(30%) opacity(85%);
+    z-index: -1;
+}
+
 main{
     flex: 1;
     display:flex;
@@ -37,7 +51,7 @@ height: fit-content;
 a{
     text-decoration: none;
     font-family:'Helvetica Neue';
-    color: #a96d5d;
+    color: #f1a22d;
     padding:1em;
 }
 
@@ -64,9 +78,8 @@ a{
 #main_header{
     text-align: center;
     font-size: 5em;
-    color:#a96d5d;
+    color:#f1a22d;
     border-radius:0.5rem;
-    background-color: #EDE1E4;
     margin-bottom: 30px;
     padding: 0.25em;
 
@@ -76,11 +89,10 @@ a{
 
 #tagline{
     display: inline-block;
-    color:#a96d5d;
+    color:#f1a22d;
     margin-top: 30px;
     margin-bottom: 2em;
     border-radius: 0.5rem;
-    background-color: #EDE1E4;
     padding: 0.25em;
     
 }
