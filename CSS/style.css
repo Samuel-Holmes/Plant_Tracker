@@ -87,7 +87,7 @@ a{
 /* Hero banner stylings */
 
 .infinite{
-    width: 48em;
+    width: 100%;
     height: 300px;
     position: relative; 
     overflow: hidden;
@@ -106,7 +106,7 @@ a{
     border-radius: 10px;
     opacity:0;
     position: absolute; 
-    transition: opacity 1s ease-in-out;
+    transition: opacity 3s ease-in-out;
 }
 
 #roller img.active{
