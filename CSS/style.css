@@ -1,142 +1,132 @@
-/*Reset*/
-
-*{
+/* Reset */
+* {
     margin: 0;
     padding: 0;
-    font-family:'Helvetica Neue';
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue';
 }
 
-
-/* styling whole page wrapper*/
-
-#wrapper{
-    display:flex;
+/* Styling whole page wrapper */
+#wrapper {
+    display: flex;
     flex-direction: column;
     height: 100vh;
-    overflow-x: none;
+    overflow-x: hidden; /* Fixed invalid 'none' */
+    position: relative;
 }
 
+/* Background overlay */
 #wrapper::before {
     content: "";
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(/ASSETS/pexels-oleksandr-tiupa-53788-192136.jpg);
+    background-image: url(/ASSETS/Screenshot\ 2025-03-14\ 222433.png);
     background-size: cover;
     background-position: center;
-    filter: brightness(30%) opacity(85%);
+    filter: brightness(40%) opacity(95%);
     z-index: -1;
 }
 
-main{
+/* Main content container */
+
+main {
     flex: 1;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
 }
 
-/* styling of the log in button top centre of the screen*/
-header{
-height: fit-content;
-}
+/* Styling the heading of the page */
 
-#menu{
+#heading_box {
     display: flex;
-    justify-content: end;
-    margin-right: 1em;
-}
-
-a{
-    text-decoration: none;
-    font-family:'Helvetica Neue';
-    color: #f1a22d;
-    padding:1em;
-}
-
-/* class for the login button allowing a growth animation on hover */
-
-.grow{
-    transition: all .2s ease-in-out;
-}
-
-.grow:hover{
-    transform: scale(1.3);
-}
-
-/* Styling the heading of the page 'Welcome to Planted'*/
-
-#heading_box{
-    display:flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    
 }
 
-#main_header{
+#main_header {
     text-align: center;
     font-size: 5em;
-    color:#f1a22d;
-    border-radius:0.5rem;
-    margin-bottom: 30px;
+    color: #f1a22d;
+    border-radius: 0.5rem;
     padding: 0.25em;
-
 }
 
-/* tagline is welcome to growth */
+/* Tagline styling */
 
-#tagline{
+#tagline {
     display: inline-block;
-    color:#f1a22d;
-    margin-top: 30px;
+    color: #f1a22d;
     margin-bottom: 2em;
     border-radius: 0.5rem;
     padding: 0.25em;
-    
 }
 
-
-/* Hero banner stylings */
-
-.infinite{
+/* Hero banner styling */
+.infinite {
+    margin-top: 50px;
     width: 75%;
     height: 300px;
-    position: relative; 
+    position: relative;
     overflow: hidden;
 }
 
-#roller{
-    position:relative;
-    width:100%;
-    height:100%;
+#roller {
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
-#roller img{
+#roller img {
     width: 100%;
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
-    opacity:0;
-    position: absolute; 
+    opacity: 0;
+    position: absolute;
     transition: opacity 3s ease-in-out;
 }
 
-#roller img.active{
-    opacity:1;
+#roller img.active {
+    opacity: 1;
 }
 
-/* footer stylings GitHub link */
-footer{
-    background-color: #EDE1E4;
-    display:flex;
-    justify-content: center;
+#info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+}
+.textbox{
+    text-align: center;
+    color: #f1a22d;  
 }
 
-#GitHub{
+/* Footer styling for GitHub link */
+footer {
+    display: flex;
+    margin-top: auto;
+    width: 100%;
+}
+
+a{
     height: 25px;
+    text-decoration: none;
+    font-family: 'Helvetica Neue';
+    color: #f1a22d;
+    transition: transform 1s ease-in-out;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
 }
 
-
+a:hover{
+    transform: scale(1.3); 
+    transform-origin: center;
+}
 
