@@ -4,7 +4,7 @@ This project was created due to my personal passion for indoor plants. I have tr
 
 ### Project Objectives:
 
-* Create a web app with database storage—using authentication to allow individual users based on their credentials.
+* Create a web app with database storage — using authentication to allow individual users based on their credentials.
 * Implement necessary CRUD operations.
 * Ensure the design is user-friendly; it does not need to be complex but should perform its functionality in an accessible manner for the end user.
 
