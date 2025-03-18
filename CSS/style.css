@@ -109,12 +109,11 @@ main {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-image: url(/ASSETS/pexels-sam-lg-1572036.jpg);
     height: 200px;
     max-width:150px;
     border-radius:5px;
+    color: #f1a22d;
 }
-
 
 
 /* Footer styling for GitHub link */
