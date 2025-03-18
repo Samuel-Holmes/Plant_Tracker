@@ -98,21 +98,21 @@ main {
 
 #info{
     display: flex;
-    flex-direction: column;
     align-items: center;
     width: 75%;
+    gap: 10px;
+    justify-content: center;
 }
+
 .textbox{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
-    color: #f1a22d; 
-    background-color: rgba(28, 63, 28, 0.61); 
-    border-radius: 0.5rem;
-    padding:0.5rem;
-    width:30%;
-    margin: 15px;
+    background-image: url(/ASSETS/pexels-sam-lg-1572036.jpg);
+    height: 200px;
+    max-width:150px;
+    border-radius:5px;
 }
 
 
