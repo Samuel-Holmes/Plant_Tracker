@@ -96,38 +96,33 @@ main {
     opacity: 1;
 }
 
+/* information box styling */
+
 #info{
     display: flex;
-    align-items: center;
     width: 75%;
-    gap: 20px;
     justify-content: center;
 }
 
 .textbox{
+    position:absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    position:relative;
     height: 200px;
-    max-width:150px;
+    max-width:300px;
     border-radius:5px;
-    color: white;
     padding:5px;
+    background-color: rgb(14, 31, 14);
+    color: #f1a22d;
 }
 
-.textbox::before{
-    content:'';
-    position:absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(8, 26, 8, 0.733);
-    z-index: -1;
-    background-size: cover;    
+#buttons{
+    height: 100px;
+    width: auto;
 }
+
 
 
 /* Footer styling for GitHub link */
