@@ -102,27 +102,52 @@ main {
     display: flex;
     width: 75%;
     justify-content: center;
+    gap: 10px;
+    align-items: center;
+   
 }
 
 .textbox{
-    position:absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     height: 200px;
     max-width:300px;
-    border-radius:5px;
+    border-radius:10px;
     padding:5px;
     background-color: rgb(14, 31, 14);
     color: #f1a22d;
 }
 
-#buttons{
-    height: 100px;
-    width: auto;
+.textbox:hover{
+    background-color: rgb(87, 118, 87);
+    transition: 1s;
 }
 
+button{
+    background-color:rgb(14, 31, 14) ;
+    border:none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 25px;
+    color:#f1a22d;
+}
+
+button:hover{
+    background-color: rgb(87, 118, 87);
+    transition: 1s;
+}
+
+
+/*
+
+button:active{
+
+}
+
+*/
 
 
 /* Footer styling for GitHub link */
