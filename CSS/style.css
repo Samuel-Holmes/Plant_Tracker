@@ -47,6 +47,7 @@ main {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    overflow: hidden;
 }
 
 #main_header {
@@ -67,35 +68,16 @@ main {
     padding: 0.25em;
 }
 
-/* Hero banner styling 
-.infinite {
-    margin-top: 50px;
-    width: 75%;
-    height: 300px;
-    position: relative;
-    overflow: hidden;
-}
-
-#roller {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-#roller img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-    opacity: 0;
+#vid_background{
     position: absolute;
-    transition: opacity 3s ease-in-out;
+    z-index: -1;
+    margin-top: 20px;
+    filter: opacity(60%);
+    border-radius: 50px;
+    width:100%;
+    object-fit: cover;
+    
 }
-
-#roller img.active {
-    opacity: 1;
-}
-*/
 
 /* information box styling */
 
