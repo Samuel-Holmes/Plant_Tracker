@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    overflow-x: hidden; /* Fixed invalid 'none' */
+    overflow-x: hidden; 
     position: relative;
 }
 
@@ -140,16 +140,6 @@ button:hover{
     background-color: rgb(87, 118, 87);
     transition: 1s;
 }
-
-
-/*
-
-button:active{
-
-}
-
-*/
-
 
 /* Footer styling for GitHub link */
 footer {
